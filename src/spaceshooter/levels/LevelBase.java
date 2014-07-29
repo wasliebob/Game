@@ -1,9 +1,13 @@
+/**
+ * Created by wasliebob, on 29 jul. 2014, at 12:22:17
+ * Licensed under CC BY-NC-SA 3.0,
+ * For more info visit http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB!
+ */
 package spaceshooter.levels;
 
 import java.util.HashMap;
 
 import spaceshooter.entities.EntityEnemy;
-import spaceshooter.helpers.RenderingHelper;
 import spaceshooter.interfaces.ILevel;
 
 public class LevelBase implements ILevel{
@@ -14,7 +18,7 @@ public class LevelBase implements ILevel{
 	
 	@Override
 	public void setup() {
-		addEnemy(RenderingHelper.xSize - 50, RenderingHelper.ySize - 50);
+//		addEnemy(RenderingHelper.xSize - 50, RenderingHelper.ySize - 50);
 	}
 
 	@Override
